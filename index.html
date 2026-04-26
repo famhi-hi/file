@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4682B4;
+            margin: 0;
+        }
+
+        header {
+            background-color: #87CEFA;
+            color: white;
+            text-align: left;
+            padding: 18px;
+        }
+
+        nav {
+            background-color: #5F9EA0;
+            padding: 10px;
+            text-align: right;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 17px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #F5FFFA;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #4169E1;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-color: #87CEFA;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO FAHMI ARSYAD</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini adalah media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama di website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+                Topik dari video adalah sejarah pastry bidang kuliner hingga masuk ke Nisvara Bakery. Alasan saya memilih topik tsb karena saya ingin memberikan manfaat serta pengalaman saya ketika berkegiatan di IC.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                Penonton dapat mengetahui awal mula dari pembuatan pastry, hingga masuk ke dunia kerja. Salah satunya di Nisvara Bakery.
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+                Banyak sekali hal-hal yang sudah saya pelajari ketika di level 9 ini, seperti lebih menghargai waktu karena waktu bisa digunakan untuk melakukan hal yang bermanfaat seperti untuk belajar. Saya merasa level 9 angkatan ini adalah angkatan yang paling seru dan solid. Saya merasa sangat senang bisa ada di angkatan Goldstern ini. Mungkin dari saya, untuk semua teman-teman saya tetap semangat dalam mencari SMA yang diinginkan.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="hgs.jpg" alt="Gambar Bebas 1">
+            <img src="gambar.jpg" alt="Gambar Bebas 2">
+            <img src="tazmi.jpg" alt="Gambar Bebas 3">
+            <img src="imhaf.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Fahmi Arsyad Majid@2026 </p>
+</footer>
+
+</body>
+</html>
